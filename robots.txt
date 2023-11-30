@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://python.rakifsul.my.id/sitemap.xml
