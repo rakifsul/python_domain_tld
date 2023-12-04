@@ -3,12 +3,168 @@
     <title>RAKIFSUL PYTHON</title>
     <link href="https://python.rakifsul.my.id/feed.xml" rel="self" />
     <link href="https://python.rakifsul.my.id" />
-    <updated>2023-12-04T20:21:21+07:00</updated>
+    <updated>2023-12-05T03:38:19+07:00</updated>
     <author>
         <name>RAKIFSUL</name>
     </author>
     <id>https://python.rakifsul.my.id</id>
 
+    <entry>
+        <title>Belajar Python 3 - Penanganan File</title>
+        <author>
+            <name>RAKIFSUL</name>
+        </author>
+        <link href="https://python.rakifsul.my.id/belajar-python-3-penanganan-file.html"/>
+        <id>https://python.rakifsul.my.id/belajar-python-3-penanganan-file.html</id>
+            <category term="Dasar"/>
+
+        <updated>2023-12-05T03:38:19+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Pendahuluan Penanganan file adalah skill dasar programmer Python 3 yang harus dikuasai. Itu karena, file hampir selalu digunakan di berbagai aplikasi. Mulai dari untuk keperluan konfigurasi hingga hal-hal lainnya. Penanganan file di Python 3 bisa dibilang memiliki sintaks yang sederhana. Kata kuncinya adalah "open", "read",&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>Pendahuluan</h2>
+<p>Penanganan file adalah skill dasar programmer Python 3 yang harus dikuasai.</p>
+<p>Itu karena, file hampir selalu digunakan di berbagai aplikasi.</p>
+<p>Mulai dari untuk keperluan konfigurasi hingga hal-hal lainnya.</p>
+<p>Penanganan file di Python 3 bisa dibilang memiliki sintaks yang sederhana.</p>
+<p>Kata kuncinya adalah "open", "read", "write", dan "close".</p>
+<p>Adalah kebiasaan yang baik untuk selalu men-close file setelah di-open.</p>
+<p>Sekarang, saya akan membahasnya.</p>
+<h2>Tujuan</h2>
+<p>Tujuan dari tutorial ini adalah:</p>
+<ul>
+<li>Pembaca mengenal cara penanganan file di Python 3.</li>
+</ul>
+<h2>Prasyarat</h2>
+<p>Prasyarat dari tutorial ini adalah:</p>
+<ul>
+<li>Menggunakan sistem operasi Windows 10 ke atas.</li>
+<li>Telah meng-install Python versi 3.10.0 dan dapat menjalankannya dari folder manapun.</li>
+<li>Telah memahami dan bisa mempraktekkan <a href="https://python.rakifsul.my.id/belajar-python-3-cara-membuat-project.html">pembuatan project Python 3</a>.</li>
+</ul>
+<h2>Langkah-Langkah</h2>
+<p>Langkah pertama untuk membuat project ini adalah dengan membuat project baru bernama "project_python3_file".</p>
+<p>Caranya sudah dijelaskan di <a href="https://python.rakifsul.my.id/belajar-python-3-cara-membuat-project.html">tutorial ini</a>.</p>
+<p>Sekarang, seharusnya di folder project sudah ada file "main.py".</p>
+<p>Isi "main.py" dengan kode ini:</p>
+<pre class="language-python line-numbers"><code># membuka file dengan parameter bawaan, yakni "rt"
+print("open default")
+
+file = open("filename.txt")
+print(file.read())
+file.close()
+
+# membuka file dengan parameter bawaan, yakni "rt" ditulis secara eksplisit
+print("")
+print("open read, text")
+
+file = open("filename.txt", "rt")
+print(file.read())
+file.close()
+
+# membuka file dan membaca dalam bentuk binary
+print("")
+print("open read, binary")
+
+file = open("filename.txt", "rb")
+print(file.read())
+file.close()
+
+# menambahkan baris tambahan
+file = open("filename.txt", "a")
+file.write("\nbaris tambahan")
+file.close()
+
+print("")
+print("ada baris tambahan")
+
+file = open("filename.txt", "rt")
+print(file.read())
+file.close()
+
+# menimpa isi file
+f = open("filename.txt", "w")
+f.write("baris pertama\nbaris kedua\nbaris ketiga\nbaris keempat")
+f.close()
+
+print("")
+print("replace isi file")
+
+file = open("filename.txt", "rt")
+print(file.read())
+file.close()</code></pre>
+<p>Selanjutnya, buatlah file teks bernama "filename.txt" yang isinya:</p>
+<pre>baris pertama<br>baris kedua<br>baris ketiga<br>baris keempat</pre>
+<p>Sekarang, jalankan:</p>
+<pre>python main.py</pre>
+<p>Output-nya:</p>
+<pre>open default<br>baris pertama<br>baris kedua<br>baris ketiga<br>baris keempat<br><br>open read, text<br>baris pertama<br>baris kedua<br>baris ketiga<br>baris keempat<br><br>open read, binary<br>b'baris pertama\r\nbaris kedua\r\nbaris ketiga\r\nbaris keempat'<br><br>ada baris tambahan<br>baris pertama<br>baris kedua<br>baris ketiga<br>baris keempat<br>baris tambahan<br><br>replace isi file<br>baris pertama<br>baris kedua<br>baris ketiga<br>baris keempat</pre>
+<h2>Pembahasan</h2>
+<p>Pada bagian ini, kita membaca file dengan parameter default, yakni "rt".</p>
+<p>Karena default, maka "rt" tidak harus ditulis:</p>
+<pre class="language-python line-numbers"><code># membuka file dengan parameter bawaan, yakni "rt"
+print("open default")
+
+file = open("filename.txt")
+print(file.read())
+file.close()</code></pre>
+<p>Bisa juga ditulis "rt" secara eksplisit seperti ini:</p>
+<pre class="language-python line-numbers"><code># membuka file dengan parameter bawaan, yakni "rt" ditulis secara eksplisit
+print("")
+print("open read, text")
+
+file = open("filename.txt", "rt")
+print(file.read())
+file.close()</code></pre>
+<p>Jika ingin membacanya sebagai binary:</p>
+<pre class="language-python line-numbers"><code># membuka file dan membaca dalam bentuk binary
+print("")
+print("open read, binary")
+
+file = open("filename.txt", "rb")
+print(file.read())
+file.close()</code></pre>
+<p>Adapun, jika ingin menambahkan ujungnya:</p>
+<pre class="language-python line-numbers"><code># menambahkan baris tambahan
+file = open("filename.txt", "a")
+file.write("\nbaris tambahan")
+file.close()
+
+print("")
+print("ada baris tambahan")
+
+file = open("filename.txt", "rt")
+print(file.read())
+file.close()</code></pre>
+<p>Perhatikan bahwa "\n" pada "\nbaris tambahan" adalah karakter newline.</p>
+<p>Sekarang, file kita sudah ditambahkan isinya.</p>
+<p>Lalu, bagaimana caranya supaya kembali seperti semula? Begini:</p>
+<pre class="language-python line-numbers"><code># menimpa isi file
+f = open("filename.txt", "w")
+f.write("baris pertama\nbaris kedua\nbaris ketiga\nbaris keempat")
+f.close()
+
+print("")
+print("replace isi file")
+
+file = open("filename.txt", "rt")
+print(file.read())
+file.close()</code></pre>
+<p>Secara lengkap, parameter kedua dari fungsi open bisa kombinasi dari karakter di bawah ini.</p>
+<p>Sebelah kiri:</p>
+<pre>"r" - Read - nilai bawaan. membuka untuk membaca.<br>"w" - Write - membuka untuk menulis, akan membuat file jika file-nya belum ada.<br>"a" - Append - membuka untuk menambahkan, akan membuat file jika file-nya belum ada.<br>"x" - Create - membuat file, mengembalikan error jika file sudah ada.</pre>
+<p>Sebelah kanan:</p>
+<pre>"t" - Text - nilai bawaan. untuk mode teks.<br>"b" - Binary - untuk mode binary.</pre>
+<h2>Penutup</h2>
+<p>Sekarang seharusnya Anda paham dengan apa yang saya jelaskan tadi.</p>
+<p>Selanjutnya, pelajari lebih banyak lagi tentang file.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Belajar Python 3 - Modul sys</title>
         <author>
