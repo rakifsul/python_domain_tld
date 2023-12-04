@@ -3,12 +3,131 @@
     <title>RAKIFSUL PYTHON</title>
     <link href="https://python.rakifsul.my.id/feed.xml" rel="self" />
     <link href="https://python.rakifsul.my.id" />
-    <updated>2023-12-04T04:41:20+07:00</updated>
+    <updated>2023-12-04T20:21:21+07:00</updated>
     <author>
         <name>RAKIFSUL</name>
     </author>
     <id>https://python.rakifsul.my.id</id>
 
+    <entry>
+        <title>Belajar Python 3 - Modul sys</title>
+        <author>
+            <name>RAKIFSUL</name>
+        </author>
+        <link href="https://python.rakifsul.my.id/belajar-python-3-modul-sys.html"/>
+        <id>https://python.rakifsul.my.id/belajar-python-3-modul-sys.html</id>
+            <category term="Dasar"/>
+
+        <updated>2023-12-04T20:21:21+07:00</updated>
+            <summary>
+                <![CDATA[
+                    Pendahuluan Modul sys adalah modul yang berisi variabel dan fungsi yang berkaitan dengan interpreter Python. Tujuan dari tutorial ini adalah: Prasyarat dari tutorial ini adalah: Langkah pertama untuk membuat project ini adalah dengan membuat project baru bernama "project_python3_sys". Caranya sudah dijelaskan di tutorial ini. Sekarang,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>Pendahuluan</h2>
+<p>Modul sys adalah modul yang berisi variabel dan fungsi yang berkaitan dengan interpreter Python.</p>
+<h2>Tujuan</h2>
+<p>Tujuan dari tutorial ini adalah:</p>
+<ul>
+<li>Pembaca mengenal modul sys.</li>
+</ul>
+<h2>Prasyarat</h2>
+<p>Prasyarat dari tutorial ini adalah:</p>
+<ul>
+<li>Menggunakan sistem operasi Windows 10 ke atas.</li>
+<li>Telah meng-install Python versi 3.10.0 dan dapat menjalankannya dari folder manapun.</li>
+<li>Telah memahami dan bisa mempraktekkan <a href="https://python.rakifsul.my.id/belajar-python-3-cara-membuat-project.html">pembuatan project Python 3</a>.</li>
+</ul>
+<h2>Langkah-Langkah</h2>
+<p>Langkah pertama untuk membuat project ini adalah dengan membuat project baru bernama "project_python3_sys".</p>
+<p>Caranya sudah dijelaskan di <a href="https://python.rakifsul.my.id/belajar-python-3-cara-membuat-project.html">tutorial ini</a>.</p>
+<p>Sekarang, seharusnya di folder project sudah ada file main.py.</p>
+<p>Isi main.py dengan kode ini:</p>
+<pre class="language-python line-numbers"><code># begin: import module
+import sys
+# end: import module
+
+# mem-print command line argument
+print(sys.argv)
+
+# mem-print versi Python
+print(sys.version)
+
+# mem-print versi Python yang lebih detail
+print(sys.version_info)
+
+# mem-print path pencarian dari modul
+print(sys.path)
+
+countRef = "sesuatu"
+
+# mem-print jumlah referensi variabel "countRef"
+print(sys.getrefcount(countRef))
+
+# standard input
+for row in sys.stdin: 
+	if "quit" == row.lstrip().rstrip(): 
+		break
+	print("input: ", row) 
+
+print("keluar") 
+
+# keluar aplikasi
+sys.exit()
+
+# karena sudah keluar aplikasi, teks di bawah tidak muncul
+print("tidak muncul.")</code></pre>
+<p>Sekarang, jalankan:</p>
+<pre>python main.py</pre>
+<p>Output-nya:</p>
+<pre>['main.py']<br>3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]<br>sys.version_info(major=3, minor=10, micro=11, releaselevel='final', serial=0)<br>['D:\\Local\\Produk\\RAKIFSUL\\PYTHON\\Dasar\\NEXT\\paket_project_python3_dasar_next\\project_python3_sys', 'C:\\Install\\Python\\WPy64-310111\\python-3.10.11.amd64\\python310.zip', 'C:\\Install\\Python\\WPy64-310111\\python-3.10.11.amd64\\DLLs', 'C:\\Install\\Python\\WPy64-310111\\python-3.10.11.amd64\\lib', 'C:\\Install\\Python\\WPy64-310111\\python-3.10.11.amd64', 'C:\\Install\\Python\\WPy64-310111\\python-3.10.11.amd64\\lib\\site-packages']  <br>4</pre>
+<p>Jika di titik ini Anda meng-input-kan karakter, maka karakter tersebut akan di-print.</p>
+<p>Jika di titik tadi Anda menulis "quit", maka aplikasi akan keluar.</p>
+<h2>Pembahasan</h2>
+<p>Pada bagian ini, kita meng-import modul sys:</p>
+<pre class="language-python line-numbers"><code># begin: import module
+import sys
+# end: import module</code></pre>
+<p>Pada bagian ini, kita mem-print argumen dari command line:</p>
+<pre class="language-python line-numbers"><code># mem-print command line argument
+print(sys.argv)</code></pre>
+<p>Jika kita menjalankan "python main.py" maka hanya keluar 1 elemen dari array di output-nya, yakni "main.py".</p>
+<p>Jika kita menjalankan "python main.py 1 2 3" maka yang keluar adalah array berisi elemen ["main.py", "1", "2", "3"].</p>
+<p>Pada bagian ini, kita mem-print versi Python:</p>
+<pre class="language-python line-numbers"><code># mem-print versi Python
+print(sys.version)</code></pre>
+<p>Pada bagian ini, kita mem-print versi Python secara lebih detail:</p>
+<pre class="language-python line-numbers"><code># mem-print versi Python yang lebih detail
+print(sys.version_info)</code></pre>
+<p>Pada bagian ini, kita memprint path pencarian dari modul:</p>
+<pre class="language-python line-numbers"><code># mem-print path pencarian dari modul
+print(sys.path)</code></pre>
+<p>Pada bagian ini, kita mem-print jumlah referensi variabel "countRef":</p>
+<pre class="language-python line-numbers"><code>countRef = "sesuatu"
+
+# mem-print jumlah referensi variabel "countRef"
+print(sys.getrefcount(countRef))</code></pre>
+<p>Tentu bukan hanya variabel yang bernama countRef. Variabel dengan nama lain juga bisa, asalkan disesuaikan dengan parameter dari method sys.getrefcount -nya.</p>
+<p>Pada bagian ini, kita menerima input dan mem-print-nya. Jika input adalah "quit" maka keluar dari aplikasi:</p>
+<pre class="language-python line-numbers"><code># standard input
+for row in sys.stdin:
+	if "quit" == row.lstrip().rstrip():
+		break
+	print("input: ", row)</code></pre>
+<p>Pada bagian ini, kita keluar aplikasi secara paksa. Menyebabkan print terbawah tidak keluar output-nya:</p>
+<pre class="language-python line-numbers"><code># keluar aplikasi
+sys.exit()
+
+# karena sudah keluar aplikasi, teks di bawah tidak muncul
+print("tidak muncul.")</code></pre>
+<h2>Penutup</h2>
+<p>Sekarang seharusnya Anda paham dengan apa yang saya jelaskan tadi.</p>
+<p>Sekarang, cobalah buka dokumentasi Python 3 tentang modul sys dan coba method atau variabel yang belum dicontohkan di tutorial ini.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Studi Kasus Python 3 - Membuat Aplikasi Password Generator</title>
         <author>
