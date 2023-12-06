@@ -3,7 +3,7 @@
     <title>RAKIFSUL PYTHON</title>
     <link href="https://python.rakifsul.my.id/feed.xml" rel="self" />
     <link href="https://python.rakifsul.my.id" />
-    <updated>2023-12-05T03:38:19+07:00</updated>
+    <updated>2023-12-06T22:24:57+07:00</updated>
     <author>
         <name>RAKIFSUL</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://python.rakifsul.my.id/belajar-python-3-penanganan-file.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-05T03:38:19+07:00</updated>
+        <updated>2023-12-06T22:22:44+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan Penanganan file adalah skill dasar programmer Python 3 yang harus dikuasai. Itu karena, file hampir selalu digunakan di berbagai aplikasi. Mulai dari untuk keperluan konfigurasi hingga hal-hal lainnya. Penanganan file di Python 3 bisa dibilang memiliki sintaks yang sederhana. Kata kuncinya adalah "open", "read",&hellip;
@@ -174,7 +174,7 @@ file.close()</code></pre>
         <id>https://python.rakifsul.my.id/belajar-python-3-modul-sys.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T20:21:21+07:00</updated>
+        <updated>2023-12-06T22:22:49+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan Modul sys adalah modul yang berisi variabel dan fungsi yang berkaitan dengan interpreter Python. Tujuan dari tutorial ini adalah: Prasyarat dari tutorial ini adalah: Langkah pertama untuk membuat project ini adalah dengan membuat project baru bernama "project_python3_sys". Caranya sudah dijelaskan di tutorial ini. Sekarang,&hellip;
@@ -293,7 +293,7 @@ print("tidak muncul.")</code></pre>
         <id>https://python.rakifsul.my.id/studi-kasus-python-3-membuat-aplikasi-password-generator.html</id>
             <category term="Studi Kasus"/>
 
-        <updated>2023-11-26T02:25:25+07:00</updated>
+        <updated>2023-12-06T22:22:55+07:00</updated>
             <summary>
                 <![CDATA[
                     Password generator adalah aplikasi yang digunakan untuk membuat password. Password yang dibuat oleh password generator mungkin memiliki kombinasi dari berbagai jenis karakter Misalnya, huruf besar, huruf kecil, angka, dan simbol. Ada juga fitur yang memungkinkan untuk membuat password dengan kombinasi yang unik atau tidak berulang.
@@ -331,7 +331,7 @@ print("tidak muncul.")</code></pre>
         <id>https://python.rakifsul.my.id/daftar-beberapa-library-gui-untuk-python.html</id>
             <category term="Lain-Lain"/>
 
-        <updated>2023-11-24T23:26:26+07:00</updated>
+        <updated>2023-12-06T22:23:00+07:00</updated>
             <summary>
                 <![CDATA[
                     Python memiliki beberapa library untuk membuat GUI. Berikut ini adalah daftarnya. Untuk lebih detailnya silakan cari sendiri.
@@ -369,7 +369,7 @@ print("tidak muncul.")</code></pre>
         <id>https://python.rakifsul.my.id/belajar-python-3-modul-threading.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T04:34:34+07:00</updated>
+        <updated>2023-12-06T22:23:14+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan Pada penerapannya, seringkali terjadi bahwa aplikasi desktop harus mengerjakan lebih dari satu task secara bersamaan. Sebagai contoh, dalam aplikasi text editor, sistem harus mengecek spelling error sementara user tetap mengetik. Python 3 memilik solusi untuk ini selain modul _thread yang telah dijelaskan di tutorial&hellip;
@@ -530,9 +530,6 @@ print ("Keluar dari Main Thread....")
 <h2>Penutup</h2>
 <p>Sekarang seharusnya Anda telah memahami cara threading dengan modul threading.</p>
 <p>Selanjutnya terserah Anda...</p>
-<p>Jika Anda ingin langsung mencoba project di tutorial ini, beli paket source code-nya.</p>
-<p><a class="btn" style="width: 100%;" href="https://karyakarsa.com/rakifsul/paket-project-python3-dasar-2023-11-25" target="_blank" rel="nofollow noopener noreferrer">beli paket source code-nya</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
@@ -545,7 +542,7 @@ print ("Keluar dari Main Thread....")
         <id>https://python.rakifsul.my.id/belajar-python-3-modul-_thread.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T04:39:33+07:00</updated>
+        <updated>2023-12-06T22:23:25+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan Pada penerapannya, seringkali terjadi bahwa aplikasi desktop harus mengerjakan lebih dari satu task secara bersamaan. Sebagai contoh, dalam aplikasi text editor, sistem harus mengecek spelling error sementara user tetap mengetik. Python 3 memilik solusi untuk ini, yakni dengan modul _thread. Bagaimana cara penggunaannya, mari&hellip;
@@ -684,9 +681,6 @@ while 1:
 <h2>Penutup</h2>
 <p>Sekarang seharusnya Anda telah memahami cara threading dengan modul _thread.</p>
 <p>Selanjutnya terserah Anda...</p>
-<p>Jika Anda ingin langsung mencoba project di tutorial ini, beli paket source code-nya.</p>
-<p><a class="btn" style="width: 100%;" href="https://karyakarsa.com/rakifsul/paket-project-python3-dasar-2023-11-25" target="_blank" rel="nofollow noopener noreferrer">beli paket source code-nya</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
@@ -699,7 +693,7 @@ while 1:
         <id>https://python.rakifsul.my.id/belajar-python-3-modul-sendiri.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T04:39:51+07:00</updated>
+        <updated>2023-12-06T22:23:38+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan Modul sendiri di sini artinya adalah modul yang ditulis oleh programmer yang menggunakannya. Modul sendiri bermanfaat untuk memecah kode Python yang banyak menjadi bagian-bagian kecil. Itu sangat membantu jika kita sedang mengembangkan aplikasi yang besar. Tujuan dari tutorial ini adalah: Prasyarat dari tutorial ini&hellip;
@@ -793,9 +787,6 @@ if __name__ == "__main__":
 <h2>Penutup</h2>
 <p>Sekarang seharusnya Anda paham dengan apa yang saya jelaskan tadi.</p>
 <p>Sekarang, cobalah membuah beberapa fungsi tambahan pada modul sendiri Anda dan coba panggil dari "pengguna_modul_sendiri.py".</p>
-<p>Jika Anda ingin langsung mencoba project di tutorial ini, beli paket source code-nya.</p>
-<p><a class="btn" style="width: 100%;" href="https://karyakarsa.com/rakifsul/paket-project-python3-dasar-2023-11-25" target="_blank" rel="nofollow noopener noreferrer">beli paket source code-nya</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
@@ -808,7 +799,7 @@ if __name__ == "__main__":
         <id>https://python.rakifsul.my.id/belajar-python-3-menulis-csv.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T04:40:01+07:00</updated>
+        <updated>2023-12-06T22:23:50+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan CSV adalah comma separated values yang formatnya berbentuk tabel. Untuk mengolahnya di Python 3, digunakan modul csv. Kali ini kita akan menggunakan modul csv untuk menulis csv. Modul csv yang akan kita gunakan nanti adalah csv.writer dan csv.DictWriter. Seperti halnya yang read, csv.writer menggunakan&hellip;
@@ -906,9 +897,6 @@ with open('contoh-write-1.csv', mode='w') as csvf:
 <h2>Penutup</h2>
 <p>Sekarang, seharusnya Anda sudah memahami modul csv.writer dan csv.DictWriter di Python 3.</p>
 <p>Selanjutnya, silakan coba sendiri.</p>
-<p>Jika Anda ingin langsung mencoba project di tutorial ini, beli paket source code-nya.</p>
-<p><a class="btn" style="width: 100%;" href="https://karyakarsa.com/rakifsul/paket-project-python3-dasar-2023-11-25" target="_blank" rel="nofollow noopener noreferrer">beli paket source code-nya</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
@@ -921,7 +909,7 @@ with open('contoh-write-1.csv', mode='w') as csvf:
         <id>https://python.rakifsul.my.id/belajar-python-3-membaca-csv.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T04:40:22+07:00</updated>
+        <updated>2023-12-06T22:24:02+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan CSV adalah comma separated values yang formatnya berbentuk tabel. Untuk mengolahnya di Python 3, digunakan modul csv. Kali ini kita akan menggunakan modul csv untuk membaca csv. Modul csv yang akan kita gunakan nanti adalah csv.reader dan csv.DictReader. Perbedaannya, csv.reader menghasilkan array dengan index,&hellip;
@@ -1090,9 +1078,6 @@ with open('contoh-read.csv') as csvf:
 <h2>Penutup</h2>
 <p>Sekarang, seharusnya Anda sudah memahami modul csv.reader dan csv.DictReader di Python 3.</p>
 <p>Silakan eksplorasi lebih lanjut.</p>
-<p>Jika Anda ingin langsung mencoba project di tutorial ini, beli paket source code-nya.</p>
-<p><a class="btn" style="width: 100%;" href="https://karyakarsa.com/rakifsul/paket-project-python3-dasar-2023-11-25" target="_blank" rel="nofollow noopener noreferrer">beli paket source code-nya</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
@@ -1105,7 +1090,7 @@ with open('contoh-read.csv') as csvf:
         <id>https://python.rakifsul.my.id/belajar-python-3-mengenal-package-pipreqs.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T04:40:36+07:00</updated>
+        <updated>2023-12-06T22:24:09+07:00</updated>
             <summary>
                 <![CDATA[
                     Di Python 3, pipreqs adalah package yang berguna untuk membuat requirements.txt dalam scope project. Artinya, berbeda dengan pip freeze yang juga memasukkan daftar modul Python yang tidak digunakan dalam project secara langsung. Untuk menginstall pipreqs: pip install pipreqs Untuk membuat requirements.txt, masuk ke dalam folder&hellip;
@@ -1134,7 +1119,7 @@ with open('contoh-read.csv') as csvf:
         <id>https://python.rakifsul.my.id/belajar-python-3-json-module.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T04:40:44+07:00</updated>
+        <updated>2023-12-06T22:24:22+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan JSON adalah suatu format data yang saat ini banyak digunakan dalam web service. Biasanya saat melakukan suatu request ke web service responnya berupa JSON. Python bisa melakukan konversi dari atau ke JSON. Maksudnya, Python bisa mengonversi data JSON ke key-value pair-nya Python (dictionary) atau&hellip;
@@ -1255,9 +1240,6 @@ print(data_di_json)</code></pre>
 <h2>Penutup</h2>
 <p>Sekarang, seharusnya Anda sudah memahami modul json di Python 3.</p>
 <p>Selanjutnya, sebaiknya Anda mencoba mengonsumsi REST API gratisan dan gunakan method yang telah diajarkan tadi sebagai latihan.</p>
-<p>Jika Anda ingin langsung mencoba project di tutorial ini, beli paket source code-nya.</p>
-<p><a class="btn" style="width: 100%;" href="https://karyakarsa.com/rakifsul/paket-project-python3-dasar-2023-11-25" target="_blank" rel="nofollow noopener noreferrer">beli paket source code-nya</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
@@ -1270,7 +1252,7 @@ print(data_di_json)</code></pre>
         <id>https://python.rakifsul.my.id/belajar-python-3-os-module.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T04:40:56+07:00</updated>
+        <updated>2023-12-06T22:24:33+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan os module atau modul os di Python 3 berperan dalam mendapatkan info seputar operating system. Mulai dari mem-print current working directory hingga me-rename file. Modul os merupakan modul bawaan dari Python 3 sehingga tidak diperlukan penginstalan package tambahan. Modul os kemungkinan akan sangat terasa&hellip;
@@ -1357,9 +1339,6 @@ elif os.path.isfile("renamed.txt") :
 <p>Sekarang Anda telah diperkenalkan dengan modul os.</p>
 <p>Masih banyak method dari modul os yang belum dibahas.</p>
 <p>Cek dokumentasinya, kemudian coba sendiri.</p>
-<p>Jika Anda ingin langsung mencoba project di tutorial ini, beli paket source code-nya.</p>
-<p><a class="btn" style="width: 100%;" href="https://karyakarsa.com/rakifsul/paket-project-python3-dasar-2023-11-25" target="_blank" rel="nofollow noopener noreferrer">beli paket source code-nya</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
@@ -1372,7 +1351,7 @@ elif os.path.isfile("renamed.txt") :
         <id>https://python.rakifsul.my.id/belajar-python-3-menggunakan-modul-urllib.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T04:41:07+07:00</updated>
+        <updated>2023-12-06T22:24:45+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan Di Python 3, untuk menangani URL diperlukan sebuah modul. Modul itu adalah urllib. Selain untuk menangani URL, urllib juga bisa digunakan untuk membuat request. Dengan kata lain kita bisa mendownload content dari suatu URL untuk diterima oleh aplikasi yang mengirimkan request-nya. Di tutorial ini,&hellip;
@@ -1498,9 +1477,6 @@ print(html)</code></pre>
 <p>Sekarang Anda telah dijelaskan tentang modul urllib.</p>
 <p>Masih banyak method dari urllib yang tidak dibahas di sini.</p>
 <p>Anda bisa mengecek dokumentasinya dan melakukan eksperimen sendiri.</p>
-<p>Jika Anda ingin langsung mencoba project di tutorial ini, beli paket source code-nya.</p>
-<p><a class="btn" style="width: 100%;" href="https://karyakarsa.com/rakifsul/paket-project-python3-dasar-2023-11-25" target="_blank" rel="nofollow noopener noreferrer">beli paket source code-nya</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
@@ -1513,7 +1489,7 @@ print(html)</code></pre>
         <id>https://python.rakifsul.my.id/belajar-python-3-cara-membuat-project.html</id>
             <category term="Dasar"/>
 
-        <updated>2023-12-04T04:41:20+07:00</updated>
+        <updated>2023-12-06T22:24:57+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan Python 3 adalah bahasa pemrograman yang relatif mudah untuk dipelajari. Package untuk Python 3 saat ini sudah cukup banyak. Dukungan komunitasnya juga sudah banyak. Selain itu, Python 3 memiliki apa yang tidak dimiliki Electron. Yaitu wxPython. wxPython adalah framework untuk membuat native GUI yang&hellip;
