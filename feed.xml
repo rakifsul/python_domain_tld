@@ -3,7 +3,7 @@
     <title>RAKIFSUL PYTHON</title>
     <link href="https://python.rakifsul.my.id/feed.xml" rel="self" />
     <link href="https://python.rakifsul.my.id" />
-    <updated>2023-12-06T22:24:57+07:00</updated>
+    <updated>2023-12-08T01:31:32+07:00</updated>
     <author>
         <name>RAKIFSUL</name>
     </author>
@@ -285,15 +285,15 @@ print("tidak muncul.")</code></pre>
         </content>
     </entry>
     <entry>
-        <title>Studi Kasus Python 3 - Membuat Aplikasi Password Generator</title>
+        <title>Contoh Project Python 3 - Aplikasi Password Generator</title>
         <author>
             <name>RAKIFSUL</name>
         </author>
-        <link href="https://python.rakifsul.my.id/studi-kasus-python-3-membuat-aplikasi-password-generator.html"/>
-        <id>https://python.rakifsul.my.id/studi-kasus-python-3-membuat-aplikasi-password-generator.html</id>
+        <link href="https://python.rakifsul.my.id/contoh-project-python-3-aplikasi-password-generator.html"/>
+        <id>https://python.rakifsul.my.id/contoh-project-python-3-aplikasi-password-generator.html</id>
             <category term="Premium"/>
 
-        <updated>2023-12-06T22:22:55+07:00</updated>
+        <updated>2023-12-08T01:31:32+07:00</updated>
             <summary>
                 <![CDATA[
                     Password generator adalah aplikasi yang digunakan untuk membuat password. Password yang dibuat oleh password generator mungkin memiliki kombinasi dari berbagai jenis karakter Misalnya, huruf besar, huruf kecil, angka, dan simbol. Ada juga fitur yang memungkinkan untuk membuat password dengan kombinasi yang unik atau tidak berulang.
@@ -308,15 +308,12 @@ print("tidak muncul.")</code></pre>
 <p>Pada umumnya, karakter password yang dihasilkan adalah acak.</p>
 <p>Password generator idealnya bisa dijalankan dengan cepat.</p>
 <p>Oleh karena itu, kurang cocok rasanya jika password generator dibuat menggunakan framework yang berat seperti Electron.</p>
-<p>Oleh karena itu, studi kasus ini membahas pembuatan aplikasi password generator dengan Python 3 dan library wxPython.</p>
-<p>Bagaimana caranya? Itu akan dibahas dalam studi kasus ini.</p>
-<p>Tapi, untuk mengakses studi kasus ini, Anda harus membelinya.</p>
-<p>Caranya adalah dengan mengklik tombol di bawah.</p>
-<p>Tapi, disclaimer, ya...:</p>
+<p>Karena alasan tadi, maka contoh project password generator ini dibuat menggunakan Python 3.</p>
+<p>Untuk mendapatkannya, klik tombol di bawah.</p>
+<p>Tapi, disclaimer, ya...</p>
 <ul>
 <li>Source code hanya teruji di Windows 11 dan tidak dijamin akan berjalan dengan benar.</li>
 <li>Source code hanya teruji dengan Python 3.10.x dan tidak dijamin akan berjalan dengan benar.</li>
-<li>Saya tidak menjamin bahwa Anda akan paham dengan isi studi kasus ini.</li>
 </ul>
 <p class="align-center"><a class="btn coba" style="width: 100%;" href="javascript:void(0);" rel="nofollow noopener noreferrer">belum tersedia</a></p>
             ]]>
