@@ -3,7 +3,7 @@
     <title>RAKIFSUL PYTHON</title>
     <link href="https://python.rakifsul.my.id/feed.xml" rel="self" />
     <link href="https://python.rakifsul.my.id" />
-    <updated>2023-12-25T06:32:55+07:00</updated>
+    <updated>2023-12-25T06:35:28+07:00</updated>
     <author>
         <name>RAKIFSUL</name>
     </author>
@@ -293,7 +293,7 @@ print("tidak muncul.")</code></pre>
         <id>https://python.rakifsul.my.id/contoh-project-python-3-aplikasi-password-generator.html</id>
             <category term="Premium"/>
 
-        <updated>2023-12-25T06:32:55+07:00</updated>
+        <updated>2023-12-25T06:35:28+07:00</updated>
             <summary>
                 <![CDATA[
                     Pendahuluan Password generator adalah aplikasi yang digunakan untuk membuat password. Password yang dibuat oleh password generator mungkin memiliki kombinasi dari berbagai jenis karakter Misalnya, huruf besar, huruf kecil, angka, dan simbol. Ada juga fitur yang memungkinkan untuk membuat password dengan kombinasi yang unik atau tidak&hellip;
@@ -320,7 +320,7 @@ print("tidak muncul.")</code></pre>
 <li>Kombinasi simbol</li>
 <li>Karakter unik jika memungkinkan</li>
 </ul>
-<h2>Antarmuka</h2>
+<h2>Tampilan</h2>
 <p>Berikut ini adalah screencast aplikasinya (hanya ilustrasi, hasilnya bisa beda):</p>
 <figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/co4kthTT11Q" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <p>Untuk mendapatkannya, klik tombol di bawah.</p>
