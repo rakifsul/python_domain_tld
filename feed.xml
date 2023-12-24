@@ -3,7 +3,7 @@
     <title>RAKIFSUL PYTHON</title>
     <link href="https://python.rakifsul.my.id/feed.xml" rel="self" />
     <link href="https://python.rakifsul.my.id" />
-    <updated>2023-12-24T01:01:02+07:00</updated>
+    <updated>2023-12-25T06:32:55+07:00</updated>
     <author>
         <name>RAKIFSUL</name>
     </author>
@@ -293,15 +293,16 @@ print("tidak muncul.")</code></pre>
         <id>https://python.rakifsul.my.id/contoh-project-python-3-aplikasi-password-generator.html</id>
             <category term="Premium"/>
 
-        <updated>2023-12-24T01:01:02+07:00</updated>
+        <updated>2023-12-25T06:32:55+07:00</updated>
             <summary>
                 <![CDATA[
-                    Password generator adalah aplikasi yang digunakan untuk membuat password. Password yang dibuat oleh password generator mungkin memiliki kombinasi dari berbagai jenis karakter Misalnya, huruf besar, huruf kecil, angka, dan simbol. Ada juga fitur yang memungkinkan untuk membuat password dengan kombinasi yang unik atau tidak berulang.
+                    Pendahuluan Password generator adalah aplikasi yang digunakan untuk membuat password. Password yang dibuat oleh password generator mungkin memiliki kombinasi dari berbagai jenis karakter Misalnya, huruf besar, huruf kecil, angka, dan simbol. Ada juga fitur yang memungkinkan untuk membuat password dengan kombinasi yang unik atau tidak&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Password generator adalah aplikasi yang digunakan untuk membuat password.</p>
+                <h2>Pendahuluan</h2>
+<p>Password generator adalah aplikasi yang digunakan untuk membuat password.</p>
 <p>Password yang dibuat oleh password generator mungkin memiliki kombinasi dari berbagai jenis karakter</p>
 <p>Misalnya, huruf besar, huruf kecil, angka, dan simbol.</p>
 <p>Ada juga fitur yang memungkinkan untuk membuat password dengan kombinasi yang unik atau tidak berulang.</p>
@@ -309,8 +310,19 @@ print("tidak muncul.")</code></pre>
 <p>Password generator idealnya bisa dijalankan dengan cepat.</p>
 <p>Oleh karena itu, kurang cocok rasanya jika password generator dibuat menggunakan framework yang berat seperti Electron.</p>
 <p>Karena alasan tadi, maka contoh project password generator ini dibuat menggunakan Python 3.</p>
-<p>Berikut ini adalah screenshot aplikasinya (hanya ilustrasi, hasilnya bisa beda):</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://python.rakifsul.my.id/media/posts/15/python_KAf3vN6iig.png" alt="" width="626" height="356" sizes="(max-width: 48em) 100vw, 768px" srcset="https://python.rakifsul.my.id/media/posts/15/responsive/python_KAf3vN6iig-xs.png 300w ,https://python.rakifsul.my.id/media/posts/15/responsive/python_KAf3vN6iig-sm.png 480w ,https://python.rakifsul.my.id/media/posts/15/responsive/python_KAf3vN6iig-md.png 768w ,https://python.rakifsul.my.id/media/posts/15/responsive/python_KAf3vN6iig-lg.png 1024w ,https://python.rakifsul.my.id/media/posts/15/responsive/python_KAf3vN6iig-xl.png 1360w ,https://python.rakifsul.my.id/media/posts/15/responsive/python_KAf3vN6iig-2xl.png 1600w"></figure>
+<h2>Fitur</h2>
+<ul>
+<li>Mampu membuat password</li>
+<li>Panjang password</li>
+<li>Kombinasi lower case</li>
+<li>Kombinasi upper case</li>
+<li>Kombinasi angka</li>
+<li>Kombinasi simbol</li>
+<li>Karakter unik jika memungkinkan</li>
+</ul>
+<h2>Antarmuka</h2>
+<p>Berikut ini adalah screencast aplikasinya (hanya ilustrasi, hasilnya bisa beda):</p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/co4kthTT11Q" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <p>Untuk mendapatkannya, klik tombol di bawah.</p>
 <p class="align-center"><a class="btn coba" style="width: 100%;" href="https://karyakarsa.com/rakifsul/contoh-project-python3-aplikasi-password-generator" target="_blank" rel="nofollow noopener noreferrer">beli sekarang</a></p>
             ]]>
